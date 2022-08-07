@@ -22,7 +22,6 @@
         <td>{{$user['id']}}</td>
         <td>{{$user['name']}}</td>
         <td>{{$user['email']}}</td>
-        <td>Actions</td>
         <td><a href="{{route('users.edit',['id'=>$user['id']])}}" class="btn btn-primary"><button>edit<button></a><td>
         <td><a href="{{route('users.destroy',['id'=>$user['id']])}}" class="btn btn-primary"><button>delete<button></a><td>
        
